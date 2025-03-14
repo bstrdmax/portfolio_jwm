@@ -2,6 +2,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.jason-header {
+    font-family: 'Caudex', sans-serif;
 }
 
 header {
@@ -16,4 +21,22 @@ header {
     display: flex;
     align-items: center;
     gap: 14px;
+}
+
+main {
+    display: block; 
+    padding: 14px;
+    gap: 14px;
+}
+
+.img-button {
+    border: none;
+    background: transparent;
+}
+
+.img-button img {
+    width: 100px;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-radius: 100%;
 }
