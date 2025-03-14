@@ -35,8 +35,8 @@ header {
     text-decoration: underline;
 }
 
-.img-link {
-    width: 50px;
+.icon-link {
+    width: 30px;
     aspect-ratio: 1/1;
     overflow: hidden;
     border-radius: 100%;
