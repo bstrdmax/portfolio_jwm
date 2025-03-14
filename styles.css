@@ -25,10 +25,15 @@ header {
     gap: 1rem;
 }
 
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
 .text-link {
     color: inherit;
     text-decoration: none;
-
 }
 
 .text-link:hover {
@@ -36,17 +41,18 @@ header {
 }
 
 .icon-link {
-    width: 30px;
+    font-size: 1.1rem;
+    color: inherit;
+    width: 40px;
     aspect-ratio: 1/1;
     overflow: hidden;
     border-radius: 100%;
-
+    display: grid;
+    place-items: center;
 }
 
-.nav-container {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+.icon-link:hover {
+    background: rgb(235, 235, 235);
 }
 
 main {
