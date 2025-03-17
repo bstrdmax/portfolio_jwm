@@ -61,6 +61,7 @@ main {
     flex-direction: column;
     justify-content: center; 
     align-items: center;
+    padding: 1rem;
     gap: 1rem;
 
 }
@@ -77,3 +78,7 @@ main {
     border-radius: 100%;
 }
 
+.portfolio-selector{
+    display:grid;
+    justify-content:left;
+}
